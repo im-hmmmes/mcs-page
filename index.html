@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="選擇你的 Minecraft Bedrock 伺服器，開啟遊戲，一起展開新的冒險。">
+<meta name="theme-color" content="#111812"><title>方塊之間 · Bedrock 伺服器入口</title>
+<link rel="stylesheet" href="./style.css"><script src="./servers.js" defer></script><script src="./app.js" defer></script>
+</head>
+<body id="top">
+<a class="skip" href="#servers">跳到伺服器列表</a>
+<div class="wrap">
+<main>
+<section id="servers" class="servers" aria-labelledby="servers-title"><div class="section-head"><div><h2 id="servers-title">世界入口</h2></div><span class="count" id="server-count">正在載入伺服器…</span></div><div class="server-grid" id="server-grid"></div><noscript><p class="empty">請啟用 JavaScript 以查看伺服器位址及開啟遊戲連結。</p></noscript><p class="server-note">點選「開啟 Minecraft」會要求開啟遊戲並加入伺服器資料，接著請在遊戲內確認連線。</p><a class="primary" href="https://drive.google.com/drive/folders/1-ylH_J657Iu50Uw0vAyDLFh04fZa3bFc?usp=drive_link" target="_blank" rel="noopener noreferrer">伺服器備份文件 <span aria-hidden="true">↗</span></a><p class="server-note">可以在Google Drive中申請瀏覽權限</p></section>
+</main>
+</div><div id="toast" role="status" aria-live="polite"></div>
+<dialog id="copy-dialog"><h2>手動複製位址</h2><p>請選取並複製下方的伺服器位址。</p><input id="copy-value" readonly aria-label="伺服器位址"><form method="dialog"><button class="primary">關閉</button></form></dialog>
+</body></html>
